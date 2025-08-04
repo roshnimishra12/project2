@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: aeonik;
+}
+html,body {
+    height:100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+}
+#nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3 {
+    background-color:black ;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 22px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+#intro {
+    height: 45%;
+    width: 100%;
+    padding: 50px 60px;
+}
+#intro h1 {
+    font-size: 145px;
+    letter-spacing: -3px;
+    line-height: 133px;
+}
+#place {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4 {
+    font-size: 33px;
+    font-weight: 600; 
+}
+#hero-image {
+    height: 87%;
+    width: 100%;
+    background-image: url(https://cdn.prod.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
+#about {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#about h2 {
+    width: 62%; 
+    font-size: 92px;
+    font-weight: 300;
+    line-height: 83px;
+    letter-spacing: -2px;
+}
+#about-part2 {
+    width: 35%;
+    height: 100%;
+    padding: 0 60px;
+    border-left: 5px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about-part2 h3 {
+    font-size: 33px;
+    font-weight: 600;
+}
+#icons i {
+    background-color: black;
+    color:#fff;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+#work {
+    height: 55%;
+    width: 100%;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+#work1 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;
+    border-right: 2px solid #000;
+}
+#work1 h3 {
+    font-size: 33px;
+    font-weight: 600;
+}
+#work i {
+    font-size: 30px;
+}
+#work2 {
+    height: 100%;
+    width: 65%; 
+    padding: 0 60px;
+}
+.work2-part{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 50px 0;
+}
+.work2-part:nth-child(1) {
+    padding-top: 0;
+    border-bottom: 2px solid #000;
+}
+.work2-part .elem {
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid #000;
+}
+.work2-part .elem:nth-child(2){
+    padding-left: 60px;
+    
+}
+.work2-part .elem h4 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.work2-part .elem p {
+    font-size: 18px;
+    color: #464545;
+    font-weight: 500;
+}
+
